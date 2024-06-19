@@ -99,15 +99,15 @@ textarea {
 }
 
 a[href^="tel:"] {
-color: brown;
-text-decoration: none;
+  color: var(--bs-primary-text-emphasis);
+  text-decoration: none;
 }
 
 #hero-image {
   display: block;
-  background-image: url("../img/home-hero-cars.jpg");
+  background-image: url("../img/20240411_143331.jpg");
   max-width: 100%;
-  height: 500px;
+  height: 600px;
   background-size: cover;
 	background-repeat:no-repeat;
   background-position:center center;
@@ -133,6 +133,10 @@ text-decoration: none;
 
 #hero-button {
   height: 43px;
+}
+
+.form-control {
+  background-color: white;
 }
 
 .textBox {
@@ -230,6 +234,10 @@ text-decoration: none;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  body {
+    padding-top: 120px;
+  }
+  
   #social-media {
     gap: 1em;
   }
@@ -237,16 +245,27 @@ text-decoration: none;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  body {
+    padding-top: 100px;
+  }
   
+  #social-media {
+    gap: 1em;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+  body {
+    padding-top: 60px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  #social-media {
+    gap: 0em;
+  }
 }
 
 /* ==========================================================================

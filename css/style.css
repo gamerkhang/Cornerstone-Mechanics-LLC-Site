@@ -15,7 +15,7 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    url('../fonts/Russo_One/RussoOne-Regular.ttf') format("truetype"),
+    url('fonts/Russo_One/RussoOne-Regular.ttf') format("truetype"),
 }
 
 @font-face { 
@@ -23,7 +23,7 @@
   font-style: normal;
   font-weight: 400;
   src: 
-    url('../fonts/Arimo/Arimo-VariableFont_wght.ttf') format("truetype"),
+    url('fonts/Arimo/Arimo-VariableFont_wght.ttf') format("truetype"),
 }
 
 html {

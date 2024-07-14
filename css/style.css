@@ -117,12 +117,17 @@ textarea {
   border-radius: 50%;
 }
 
-#phone-number {
+#nav-phone {
   text-align: center;
 }
 
-#social-media {
+#nav-name {
+  text-align: center;
+}
+
+#nav-social {
   gap: 1em;
+  justify-content: center;
 }
 
 a[href^="tel:"] {
@@ -249,7 +254,7 @@ a[href^="tel:"] {
 @media only screen and (max-width: 600px) {
   body {
     text-align: center;
-    padding-top: 130px;
+    padding-top: 120px;
   }
 
   .carousel {
@@ -275,7 +280,7 @@ a[href^="tel:"] {
 @media only screen and (min-width: 600px) {
   body {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 120px;
   }
 
   .carousel {
@@ -294,7 +299,7 @@ a[href^="tel:"] {
 @media only screen and (min-width: 768px) {
   body {
     text-align: left;
-    padding-top: 80px;
+    padding-top: 120px;
   }
 
   .carousel {
@@ -315,12 +320,13 @@ a[href^="tel:"] {
     padding-top: 60px;
   }
 
-  #social-media {
-    gap: 0em;
+  #nav-phone {
+    text-align: left;
   }
 
-  #phone-number {
-    text-align: left;
+  #nav-social {
+    gap: 0em;
+    justify-content: right;
   }
 }
 

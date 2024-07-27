@@ -2,7 +2,11 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // Default variable overrides
-$body-bg: #b1b1b1;
+$theme-colors: (
+    "primary": #ebebeb,
+    "secondary": #a0c2eb,
+    "tertiary": #eb9540
+);
 
 // Required
 @import "../node_modules/bootstrap/scss/variables";

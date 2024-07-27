@@ -145,7 +145,7 @@ a[href^="tel:"] {
 
 .textBox {
   border-radius: 25px;
-  background-color: #cccccc;
+  background-color: var(--bs-tertiary);
   padding: 1.25rem 2rem 0.75rem 2rem;
   align-items: center;
 }
